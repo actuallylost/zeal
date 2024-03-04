@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/rsx_ast",
+    "crates/rsx_cli",
+    "crates/rsx_codegen",
+    "crates/rsx_config",
+    "crates/rsx_error",
+    "crates/rsx_lsp",
+    "crates/rsx_main",
+    "crates/rsx_parser",
+    "crates/rsx_tests"
+]
