@@ -1,4 +1,10 @@
-# Zeal
+<div align="center">
+    <p>
+        <img src="./assets/logo_transparent.png" width="544" alt="zeal." />
+    </p>
+</div>
+
+---
 
 An all-in-one batteries included web framework built with ease-of-use in mind, inspired by [Yew](https://yew.rs/) and [Leptos](https://leptos.dev), but with a different approach.
 

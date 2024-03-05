@@ -1,10 +1,5 @@
 [workspace]
 resolver = "2"
 members = [
-    "crates/zeal_cli",
-    "crates/zeal_config",
-    "crates/zeal_error",
-    "crates/zeal",
-    "crates/zeal_tests",
-    "crates/zeal_types"
+    "crates/*"
 ]
