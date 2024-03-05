@@ -1,6 +1,6 @@
-# rsx-syntax-support README
+# zeal-vsc README
 
-This is the README for your extension "rsx-syntax-support". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "zeal-vsc". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

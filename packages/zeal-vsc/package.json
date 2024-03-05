@@ -1,0 +1,25 @@
+{
+  "name": "zeal-vsc",
+  "displayName": "zeal-syntax-highlighting",
+  "description": "An extension that enables syntax highlighting for the Zeal Web Framework.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "rust",
+      "aliases": ["rust", "rust"],
+      "extensions": [".rust"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "rust",
+      "scopeName": "source.rust",
+      "path": "./syntaxes/rust.tmLanguage.json"
+    }]
+  }
+}

@@ -1,10 +1,10 @@
-# rust-extended
+# Zeal
 
-This project is me trying to see if I can figure out how to make jsx but for rust (rsx). It will essentially work like yew's and leptos' html and view macros for writing compiler checked HTML in rust. This is very WIP so drastic and breaking changes are to be expected.
+An all-in-one batteries included web framework built with ease-of-use in mind, inspired by [Yew](https://yew.rs/) and [Leptos](https://leptos.dev), but with a different approach.
 
 ## Goals
 
-- Allow for the use of html-in-rust in a way that is similar to jsx.
+- Allow for the use of html-in-rust in a way that is similar to jsx, using macros.
 - Integrate customized css-in-rust in a [styled-components](https://styled-components.com/) kind of way.
 - Provide ready-to-use components for common webpage functionalities.
 - Possibly allow for a monadic way of writing webpages.
