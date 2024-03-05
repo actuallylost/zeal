@@ -6,7 +6,7 @@ This is documentation directory which every crate and functionality will be expl
 
 The idea would be to try to make it as close to jsx as possible, however that is not possible without using macros.
 
-The primary way the framework could work is showcased below:
+The primary two ways the framework could work are showcased below:
 
 ```rust
 #[zeal_component()]
@@ -16,6 +16,26 @@ pub fn App() -> Rsx {
             <p>Hello, World!</p>
         </div>
     }
+}
+
+fn main() {
+    zeal::mount(App);
+}
+```
+
+or more monadic:
+
+```rust
+#[zeal_component()]
+pub fn App() -> Node {
+    let root = zeal::root();
+    let component = root.children(
+        div().children(
+            p().children("Hello, World!")
+        )
+    );
+
+    component
 }
 
 fn main() {
