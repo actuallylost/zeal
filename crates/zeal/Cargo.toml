@@ -4,3 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+zeal_types = { path = "../zeal_types" }
+zeal_error = { path = "../zeal_error" }
